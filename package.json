@@ -1,0 +1,10 @@
+{
+  "name": "pie-chart-react",
+  "version": "1.2.2",
+  "main": "index.js",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
