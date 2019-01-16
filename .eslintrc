@@ -1,0 +1,12 @@
+{
+  "root": false,
+  "extends": [
+    "plugin:ivs/browser-stage2",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-console" : 0,
+    "react/prop-types" : "off",
+    "react/react-in-jsx-scope": "off"
+  }
+}

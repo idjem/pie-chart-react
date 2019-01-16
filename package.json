@@ -3,8 +3,17 @@
   "version": "1.2.2",
   "main": "index.js",
   "license": "ISC",
+  "scripts": {
+    "eslint": "eslint index.js",
+    "test": "npm run eslint",
+    "mocha": "mocha -b"
+  },
   "peerDependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-ivs": "^2.1.0",
+    "eslint-plugin-react": "^7.12.3"
   }
 }
