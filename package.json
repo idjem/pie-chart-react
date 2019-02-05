@@ -6,6 +6,7 @@
   "scripts": {
     "eslint": "eslint index.js",
     "test": "npm run eslint",
+    "build-examples": "browserify -t [ babelify --presets [ @babel/preset-react ] ] examples/index.js -o examples/build/_app.js",
     "mocha": "mocha -b"
   },
   "peerDependencies": {
@@ -13,6 +14,9 @@
     "react-dom": "^16.5.2"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "babelify": "^10.0.0",
+    "browserify": "^16.2.3",
     "eslint-plugin-ivs": "^2.1.0",
     "eslint-plugin-react": "^7.12.3"
   }
